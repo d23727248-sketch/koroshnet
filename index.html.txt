@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>کوروش‌نت | فروش VPN و محصولات دیجیتال</title>
+  <style>
+    body {
+      font-family: 'Tahoma', sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #222;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #111;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    h2, h3 {
+      color: #00ccff;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 5px 0;
+      border-bottom: 1px solid #333;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    input {
+      background-color: #222;
+      color: #fff;
+    }
+    button {
+      background-color: #00ccff;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>کوروش‌نت</h1>
+    <p>فروش VPN، محصولات دیجیتال و مقاله‌نویسی تخصصی</p>
+  </header>
+
+  <nav>
+    <a href="#">خانه</a>
+    <a href="#">فروش VPN</a>
+    <a href="#">محصولات دیجیتال</a>
+    <a href="#">سفارش مقاله</a>
+    <a href="#">تماس با ما</a>
+  </nav>
+
+  <section>
+    <h2>🛡️ سرویس‌های VPN</h2>
+    <ul>
+      <li>VPN یک‌ماهه – 100,000 تومان</li>
+      <li>VPN سه‌ماهه – 270,000 تومان</li>
+      <li>VPN شش‌ماهه – 500,000 تومان</li>
+      <li>VPN یک‌ساله – 950,000 تومان</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🎧 محصولات دیجیتال</h2>
+
+    <h3>ایربادز و ایرپاد</h3>
+    <ul>
+      <li>AirPods 3 اپل – 12,800,000 تومان</li>
+      <li>AirPods Pro 2 USB-C – 18,250,000 تومان</li>
+      <li>AirPods Max رنگ آبی – 46,900,000 تومان</li>
+    </ul>
+
+    <h3>⌚ ساعت‌های دیجیتال</h3>
+    <ul>
+      <li>ساعت اسکمی مدل 23-28BK – 2,100,000 تومان</li>
+      <li>ساعت کیو اند کیو مدل M124J004Y – 2,584,750 تومان</li>
+      <li>ساعت کاسیو مدل GM-5600G-9DR – 18,480,000 تومان</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>📝 فرم سفارش مقاله</h2>
+    <form action="#" method="post">
+      <label>نام شما:</label>
+      <input type="text" name="name" required>
+
+      <label>موضوع مقاله:</label>
+      <input type="text" name="topic" required>
+
+      <label>تعداد کلمات:</label>
+      <input type="number" name="words" min="100" required>
+
+      <label>ایمیل:</label>
+      <input type="email" name="email" required>
+
+      <label>شماره تماس:</label>
+      <input type="text" name="phone" value="09050602780" readonly>
+
+      <button type="submit">ارسال سفارش</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 کوروش‌نت | طراحی شده توسط Copilot
+  </footer>
+
+</body>
+</html>
